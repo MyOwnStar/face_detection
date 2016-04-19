@@ -3,4 +3,7 @@
 
 CMakeFiles/face_detection_cuda.dir/main.cpp.o
  /home/alex/Projects/face-detection-cuda/ImageProcessing.hpp
+ /home/alex/Projects/face-detection-cuda/cudaCheckError.hpp
+ /home/alex/Projects/face-detection-cuda/cudaInclude.hpp
+ /home/alex/Projects/face-detection-cuda/integralImage.hpp
  /home/alex/Projects/face-detection-cuda/main.cpp
