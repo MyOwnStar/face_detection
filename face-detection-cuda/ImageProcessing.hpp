@@ -9,7 +9,7 @@
 #include <string>
 #include <ctime>
 
-#include "integralImage.hpp"
+#include "IntegralImage.hpp"
 
 // Load image and convert to grayscale
 cv::Mat getImage(int argc, char **argv);
@@ -27,13 +27,14 @@ void display(cv::Mat &image, std::string title);
 
 cv::Mat getImage(int argc, char **argv)
 {
-   if (argc < 2)
-   {
-      std::cout << "Usage: ./detect <image>" << std::endl;
-      exit(-1);
-   }
+//   if (argc < 2)
+//   {
+//      std::cout << "Usage: ./detect <image>" << std::endl;
+//      exit(-1);
+//   }
 
-   cv::Mat image = cv::imread(argv[1], CV_LOAD_IMAGE_GRAYSCALE);
+//   cv::Mat image = cv::imread(argv[1], CV_LOAD_IMAGE_GRAYSCALE);
+   cv::Mat image = cv::imread("/home/alex/Projects/face-detection-cuda/build/1.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 
    if (!image.data)
    {

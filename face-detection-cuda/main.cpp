@@ -15,14 +15,14 @@ int main(int argc, char** argv)
 
    intImageCPU = integralImageCPU(srcImage);
    cv::normalize(intImageCPU, intImageCPU, 0, 1, CV_MINMAX);
-   //display(intImageCPU, "OpenCV Integral image");
+   display(intImageCPU, "OpenCV Integral image");
 
 
    cv::Mat intImageGPU;
 
    intImageGPU = integralImageGPU(srcImage);
    cv::normalize(intImageGPU, intImageGPU, 0, 1, CV_MINMAX);
-   //display(intImageGPU, "CUDA Integral image");
+   display(intImageGPU, "CUDA Integral image");
 
    return 0;
 }

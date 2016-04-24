@@ -52,10 +52,10 @@ include CMakeFiles/face_detection_cuda.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/face_detection_cuda.dir/flags.make
 
+CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o: ../IntegralImage.hpp
 CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o: ../cudaCheckError.hpp
 CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o: ../cudaInclude.hpp
 CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o: ../integralImage.cu
-CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o: ../integralImage.hpp
 CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o: /usr/include/_G_config.h
 CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o: /usr/include/alloca.h
 CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o: /usr/include/builtin_types.h
@@ -225,9 +225,409 @@ CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage
 	cd /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir && /usr/bin/cmake -E make_directory /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir//.
 	cd /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir//./face_detection_cuda_generated_integralImage.cu.o -D generated_cubin_file:STRING=/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir//./face_detection_cuda_generated_integralImage.cu.o.cubin.txt -P /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir//face_detection_cuda_generated_integralImage.cu.o.cmake
 
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: ../Kernels/ID_4.cu
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: ../cudaInclude.hpp
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/alloca.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/builtin_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/channel_descriptor.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/common_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/cuda_device_runtime_api.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/cuda_runtime_api.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/cuda_surface_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/cuda_texture_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/device_launch_parameters.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/device_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/driver_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/driver_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/endian.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/features.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/host_config.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/host_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/linux/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/math.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/math_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/math_functions_dbl_ptx1.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/sm_11_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/sm_12_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/sm_13_double_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/sm_20_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/sm_20_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/sm_30_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/sm_32_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/sm_32_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/sm_35_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/sm_35_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/stdlib.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/string.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/surface_indirect_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/surface_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/texture_fetch_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/texture_indirect_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/texture_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/time.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/vector_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/vector_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/include/xlocale.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/lib/nvidia-cuda-toolkit/include/cuda_runtime.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/lib/nvidia-cuda-toolkit/include/device_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: /usr/lib/nvidia-cuda-toolkit/include/surface_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_4.cu.o.cmake
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o: ../Kernels/ID_4.cu
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/Projects/face-detection-cuda/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o"
+	cd /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels && /usr/bin/cmake -E make_directory /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/.
+	cd /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o -D generated_cubin_file:STRING=/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o.cubin.txt -P /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_4.cu.o.cmake
+
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: ../Kernels/ID_2.cu
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: ../cudaInclude.hpp
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/alloca.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/builtin_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/channel_descriptor.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/common_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/cuda_device_runtime_api.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/cuda_runtime_api.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/cuda_surface_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/cuda_texture_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/device_launch_parameters.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/device_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/driver_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/driver_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/endian.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/features.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/host_config.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/host_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/linux/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/math.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/math_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/math_functions_dbl_ptx1.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/sm_11_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/sm_12_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/sm_13_double_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/sm_20_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/sm_20_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/sm_30_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/sm_32_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/sm_32_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/sm_35_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/sm_35_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/stdlib.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/string.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/surface_indirect_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/surface_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/texture_fetch_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/texture_indirect_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/texture_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/time.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/vector_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/vector_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/include/xlocale.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/lib/nvidia-cuda-toolkit/include/cuda_runtime.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/lib/nvidia-cuda-toolkit/include/device_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: /usr/lib/nvidia-cuda-toolkit/include/surface_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_2.cu.o.cmake
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o: ../Kernels/ID_2.cu
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/Projects/face-detection-cuda/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o"
+	cd /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels && /usr/bin/cmake -E make_directory /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/.
+	cd /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o -D generated_cubin_file:STRING=/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o.cubin.txt -P /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_2.cu.o.cmake
+
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: ../Kernels/ID_3.cu
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: ../cudaInclude.hpp
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/alloca.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/builtin_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/channel_descriptor.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/common_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/cuda_device_runtime_api.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/cuda_runtime_api.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/cuda_surface_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/cuda_texture_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/device_launch_parameters.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/device_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/driver_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/driver_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/endian.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/features.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/host_config.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/host_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/linux/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/math.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/math_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/math_functions_dbl_ptx1.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/sm_11_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/sm_12_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/sm_13_double_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/sm_20_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/sm_20_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/sm_30_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/sm_32_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/sm_32_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/sm_35_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/sm_35_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/stdlib.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/string.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/surface_indirect_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/surface_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/texture_fetch_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/texture_indirect_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/texture_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/time.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/vector_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/vector_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/include/xlocale.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/lib/nvidia-cuda-toolkit/include/cuda_runtime.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/lib/nvidia-cuda-toolkit/include/device_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: /usr/lib/nvidia-cuda-toolkit/include/surface_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_3.cu.o.cmake
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o: ../Kernels/ID_3.cu
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/Projects/face-detection-cuda/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o"
+	cd /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels && /usr/bin/cmake -E make_directory /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/.
+	cd /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o -D generated_cubin_file:STRING=/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o.cubin.txt -P /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_3.cu.o.cmake
+
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: ../Kernels/ID_1.cu
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: ../cudaInclude.hpp
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/alloca.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/builtin_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/c++/4.8/cmath
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/c++/4.8/cstdlib
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/c++/4.8/exception
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/c++/4.8/new
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/channel_descriptor.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/common_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/cuda_device_runtime_api.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/cuda_runtime_api.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/cuda_surface_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/cuda_texture_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/device_launch_parameters.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/device_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/driver_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/driver_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/endian.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/features.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/host_config.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/host_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/linux/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/math.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/math_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/math_functions_dbl_ptx1.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/sm_11_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/sm_12_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/sm_13_double_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/sm_20_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/sm_20_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/sm_30_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/sm_32_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/sm_32_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/sm_35_atomic_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/sm_35_intrinsics.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/stdc-predef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/stdlib.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/string.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/surface_indirect_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/surface_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/texture_fetch_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/texture_indirect_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/texture_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/time.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/vector_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/vector_types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/include/xlocale.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/lib/nvidia-cuda-toolkit/include/cuda_runtime.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/lib/nvidia-cuda-toolkit/include/device_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: /usr/lib/nvidia-cuda-toolkit/include/surface_functions.h
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_1.cu.o.cmake
+CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o: ../Kernels/ID_1.cu
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/Projects/face-detection-cuda/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o"
+	cd /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels && /usr/bin/cmake -E make_directory /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/.
+	cd /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING= -D generated_file:STRING=/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o -D generated_cubin_file:STRING=/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o.cubin.txt -P /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_1.cu.o.cmake
+
 CMakeFiles/face_detection_cuda.dir/main.cpp.o: CMakeFiles/face_detection_cuda.dir/flags.make
 CMakeFiles/face_detection_cuda.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/Projects/face-detection-cuda/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alex/Projects/face-detection-cuda/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/face_detection_cuda.dir/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/face_detection_cuda.dir/main.cpp.o -c /home/alex/Projects/face-detection-cuda/main.cpp
 
@@ -254,10 +654,18 @@ face_detection_cuda_OBJECTS = \
 
 # External object files for target face_detection_cuda
 face_detection_cuda_EXTERNAL_OBJECTS = \
-"/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o"
+"/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o" \
+"/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o" \
+"/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o" \
+"/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o" \
+"/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o"
 
 face_detection_cuda: CMakeFiles/face_detection_cuda.dir/main.cpp.o
 face_detection_cuda: CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o
+face_detection_cuda: CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o
+face_detection_cuda: CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o
+face_detection_cuda: CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o
+face_detection_cuda: CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o
 face_detection_cuda: CMakeFiles/face_detection_cuda.dir/build.make
 face_detection_cuda: /usr/lib/x86_64-linux-gnu/libcudart.so
 face_detection_cuda: /usr/local/lib/libopencv_videostab.so.3.0.0
@@ -321,6 +729,10 @@ CMakeFiles/face_detection_cuda.dir/clean:
 .PHONY : CMakeFiles/face_detection_cuda.dir/clean
 
 CMakeFiles/face_detection_cuda.dir/depend: CMakeFiles/face_detection_cuda.dir/./face_detection_cuda_generated_integralImage.cu.o
+CMakeFiles/face_detection_cuda.dir/depend: CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_4.cu.o
+CMakeFiles/face_detection_cuda.dir/depend: CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_2.cu.o
+CMakeFiles/face_detection_cuda.dir/depend: CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_3.cu.o
+CMakeFiles/face_detection_cuda.dir/depend: CMakeFiles/face_detection_cuda.dir/Kernels/./face_detection_cuda_generated_ID_1.cu.o
 	cd /home/alex/Projects/face-detection-cuda/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alex/Projects/face-detection-cuda /home/alex/Projects/face-detection-cuda /home/alex/Projects/face-detection-cuda/build /home/alex/Projects/face-detection-cuda/build /home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/face_detection_cuda.dir/depend
 

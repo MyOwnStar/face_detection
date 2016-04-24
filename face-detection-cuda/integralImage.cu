@@ -1,11 +1,10 @@
-#include "integralImage.hpp"
+#include "IntegralImage.hpp"
 
 #define THREADS_PER_BLOCK 32
 
 __global__
 void rowsScan(float *data, int rows, int columns, size_t stride)
 {
-   // start from row 0
    int row = blockIdx.x * blockDim.x + threadIdx.x;
 
    if(row < rows)
@@ -20,12 +19,11 @@ void rowsScan(float *data, int rows, int columns, size_t stride)
 __global__
 void colsScan(float *data, int rows, int columns, size_t stride)
 {
-   // Start from column 1
    int col = blockIdx.x * blockDim.x + threadIdx.x;
 
    if(col < columns)
    {
-      for(int row = 1; row<rows; ++row)
+      for(int row = 1; row < rows; ++row)
       {
          data[row * stride + col] = data[row * stride + col] + data[(row - 1) * stride + col];
       }
@@ -44,7 +42,7 @@ void gpuIntImage(float *hostData, int rows, int columns, size_t stride)
 
    int numBlocks = rows / THREADS_PER_BLOCK;
 
-   std::cout << "numBlocks: " << numBlocks << std::endl;
+   //std::cout << "numBlocks: " << numBlocks << std::endl;
 
    const clock_t start = clock();
    rowsScan<<<numBlocks, THREADS_PER_BLOCK>>>(deviceData, rows, columns, stride);
@@ -53,7 +51,7 @@ void gpuIntImage(float *hostData, int rows, int columns, size_t stride)
 
    numBlocks = columns / THREADS_PER_BLOCK + 1;
 
-   std::cout << "numBlocks: " << numBlocks << std::endl;
+   //std::cout << "numBlocks: " << numBlocks << std::endl;
 
    cudaCheckError(cudaThreadSynchronize());
 

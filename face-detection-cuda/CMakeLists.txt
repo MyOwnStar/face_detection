@@ -4,7 +4,8 @@ project(face_detection_cuda)
 find_package(CUDA REQUIRED)
 find_package(OpenCV REQUIRED)
 
-file(GLOB SOURCES "*.cpp" "*.hpp" "*.cu")
+file(GLOB SOURCES "*.cpp" "*.hpp" "*.cu" "Kernels/*")
+
 
 cuda_add_executable(face_detection_cuda ${SOURCES})
 

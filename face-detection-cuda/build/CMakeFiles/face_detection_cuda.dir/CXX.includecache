@@ -19,8 +19,16 @@ string
 -
 ctime
 -
-integralImage.hpp
-/home/alex/Projects/face-detection-cuda/integralImage.hpp
+IntegralImage.hpp
+/home/alex/Projects/face-detection-cuda/IntegralImage.hpp
+
+/home/alex/Projects/face-detection-cuda/IntegralImage.hpp
+cudaCheckError.hpp
+/home/alex/Projects/face-detection-cuda/cudaCheckError.hpp
+cudaInclude.hpp
+/home/alex/Projects/face-detection-cuda/cudaInclude.hpp
+iostream
+-
 
 /home/alex/Projects/face-detection-cuda/cudaCheckError.hpp
 cuda_runtime.h
@@ -36,14 +44,6 @@ cuda_runtime.h
 cuda_runtime_api.h
 -
 device_launch_parameters.h
--
-
-/home/alex/Projects/face-detection-cuda/integralImage.hpp
-cudaCheckError.hpp
-/home/alex/Projects/face-detection-cuda/cudaCheckError.hpp
-cudaInclude.hpp
-/home/alex/Projects/face-detection-cuda/cudaInclude.hpp
-iostream
 -
 
 /home/alex/Projects/face-detection-cuda/main.cpp
