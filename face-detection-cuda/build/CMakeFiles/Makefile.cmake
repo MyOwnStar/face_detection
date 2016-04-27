@@ -49,10 +49,10 @@ SET(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 SET(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/face_detection_cuda.dir/face_detection_cuda_generated_integralImage.cu.o.cmake"
-  "CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_4.cu.o.cmake"
   "CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_2.cu.o.cmake"
-  "CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_3.cu.o.cmake"
+  "CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_4.cu.o.cmake"
   "CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_1.cu.o.cmake"
+  "CMakeFiles/face_detection_cuda.dir/Kernels/face_detection_cuda_generated_ID_3.cu.o.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

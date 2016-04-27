@@ -114,6 +114,30 @@ face_detection_cuda/fast:
 	$(MAKE) -f CMakeFiles/face_detection_cuda.dir/build.make CMakeFiles/face_detection_cuda.dir/build
 .PHONY : face_detection_cuda/fast
 
+WinInfo.o: WinInfo.cpp.o
+.PHONY : WinInfo.o
+
+# target to build an object file
+WinInfo.cpp.o:
+	$(MAKE) -f CMakeFiles/face_detection_cuda.dir/build.make CMakeFiles/face_detection_cuda.dir/WinInfo.cpp.o
+.PHONY : WinInfo.cpp.o
+
+WinInfo.i: WinInfo.cpp.i
+.PHONY : WinInfo.i
+
+# target to preprocess a source file
+WinInfo.cpp.i:
+	$(MAKE) -f CMakeFiles/face_detection_cuda.dir/build.make CMakeFiles/face_detection_cuda.dir/WinInfo.cpp.i
+.PHONY : WinInfo.cpp.i
+
+WinInfo.s: WinInfo.cpp.s
+.PHONY : WinInfo.s
+
+# target to generate assembly for a file
+WinInfo.cpp.s:
+	$(MAKE) -f CMakeFiles/face_detection_cuda.dir/build.make CMakeFiles/face_detection_cuda.dir/WinInfo.cpp.s
+.PHONY : WinInfo.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -147,6 +171,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... face_detection_cuda"
 	@echo "... rebuild_cache"
+	@echo "... WinInfo.o"
+	@echo "... WinInfo.i"
+	@echo "... WinInfo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

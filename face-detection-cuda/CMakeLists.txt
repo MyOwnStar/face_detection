@@ -6,12 +6,10 @@ find_package(OpenCV REQUIRED)
 
 file(GLOB SOURCES "*.cpp" "*.hpp" "*.cu" "Kernels/*")
 
-
 cuda_add_executable(face_detection_cuda ${SOURCES})
 
 list(APPEND CMAKE_CXX_FLAGS "-std=c++11 -Wall")
 
-list(APPEND CUDA_NVCC_FLAGS --compiler-options -fno-strict-aliasing -lineinfo -use_fast_math -Xptxas -dlcm=cg)
-list(APPEND CUDA_NVCC_FLAGS -gencode arch=compute_11,code=sm_11)
+list(APPEND CUDA_NVCC_FLAGS -gencode arch=compute_10,code=sm_10)
 
 target_link_libraries(face_detection_cuda ${OpenCV_LIBS})

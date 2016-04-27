@@ -33,8 +33,8 @@ cv::Mat getImage(int argc, char **argv)
 //      exit(-1);
 //   }
 
-//   cv::Mat image = cv::imread(argv[1], CV_LOAD_IMAGE_GRAYSCALE);
-   cv::Mat image = cv::imread("/home/alex/Projects/face-detection-cuda/build/1.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+   //cv::Mat image = cv::imread(argv[1], CV_LOAD_IMAGE_GRAYSCALE);
+   cv::Mat image = cv::imread("/home/alex/Projects/face-detection-cuda/build/Data/1024x768/1.jpg", CV_LOAD_IMAGE_GRAYSCALE);
 
    if (!image.data)
    {
@@ -53,7 +53,7 @@ cv::Mat integralImageCPU(cv::Mat &image)
 
    const clock_t start = clock();
    cv::integral(image, opencvIntImage, CV_32F);
-   std::cout << "OpenCV Intagral Image: " << static_cast<float>(clock() - start) / CLOCKS_PER_SEC << std::endl;
+   std::cout << "OpenCV Intagral Image: " << static_cast<float>(clock() - start) << " ms" << std::endl;
 
    return opencvIntImage;
 }

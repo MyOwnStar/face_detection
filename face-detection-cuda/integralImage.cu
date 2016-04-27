@@ -1,6 +1,6 @@
 #include "IntegralImage.hpp"
 
-#define THREADS_PER_BLOCK 32
+#define THREADS_PER_BLOCK 384
 
 __global__
 void rowsScan(float *data, int rows, int columns, size_t stride)
@@ -60,7 +60,7 @@ void gpuIntImage(float *hostData, int rows, int columns, size_t stride)
    cudaCheckError(cudaDeviceSynchronize());
 
    cudaCheckError(cudaThreadSynchronize());
-   std::cout << "CUDA Intagral Image: " << static_cast<float>(clock() - start) / CLOCKS_PER_SEC << std::endl;
+   std::cout << "CUDA Intagral Image: " << static_cast<float>(clock() - start) << " ms" << std::endl;
 
    cudaCheckError(cudaMemcpy(hostData, deviceData, sizeInByte, cudaMemcpyDeviceToHost));
 

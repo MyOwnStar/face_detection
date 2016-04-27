@@ -30,6 +30,12 @@ cudaInclude.hpp
 iostream
 -
 
+/home/alex/Projects/face-detection-cuda/WinInfo.hpp
+opencv2/core.hpp
+-
+iostream
+-
+
 /home/alex/Projects/face-detection-cuda/cudaCheckError.hpp
 cuda_runtime.h
 -
@@ -51,4 +57,6 @@ iostream
 -
 ImageProcessing.hpp
 /home/alex/Projects/face-detection-cuda/ImageProcessing.hpp
+WinInfo.hpp
+/home/alex/Projects/face-detection-cuda/WinInfo.hpp
 
