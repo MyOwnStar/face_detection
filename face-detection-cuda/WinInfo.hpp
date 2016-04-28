@@ -19,7 +19,7 @@ public:
    int xyOffsetWindows();
 
    int totalWindows();
-   int windowSize();
+   int subWindowSize();
    int windowOffset();
    int *subWindowOffsets();
 

@@ -1,7 +1,9 @@
 #include <iostream>
 
 #include "ImageProcessing.hpp"
+#include "DetectFaces.hpp"
 #include "WinInfo.hpp"
+
 
 int main(int argc, char** argv)
 {
@@ -28,6 +30,14 @@ int main(int argc, char** argv)
    intImageGPU = integralImageGPU(srcImage);
    cv::normalize(intImageGPU, intImageGPU, 0, 1, CV_MINMAX);
    //display(intImageGPU, "CUDA Integral image");
+
+   detectedFaces((float*)intImageGPU.data,
+                         intImageGPU.rows,
+                         intImageGPU.cols,
+                         intImageGPU.cols,
+                         winInfo.subWindowOffsets(),
+                         winInfo.totalWindows(),
+                         winInfo.subWindowSize());
 
    return 0;
 }

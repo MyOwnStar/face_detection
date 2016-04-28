@@ -8,7 +8,6 @@ WinInfo::WinInfo(const cv::Mat image, int subWinSize)
    std::cout << "Image resolution: " << _image.cols << "x" << _image.rows << std::endl;
    std::cout << "Sub-window size : " << _subWinSize << std::endl;
 
-
    _offset = _subWinSize / 2;
    _offsets = new int [totalWindows()];
 
@@ -50,7 +49,7 @@ int WinInfo::totalWindows()
     return xWindows() * yWindows() + xOffsetWindows() * yWindows() + xWindows() * yOffsetWindows() + xyOffsetWindows();
 }
 
-int WinInfo::windowSize()
+int WinInfo::subWindowSize()
 {
     return _subWinSize;
 }
