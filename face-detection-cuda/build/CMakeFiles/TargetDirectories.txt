@@ -1,1 +1,0 @@
-/home/alex/Projects/face-detection-cuda/build/CMakeFiles/face_detection_cuda.dir
